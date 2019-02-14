@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add rollup-plugin-uglify --dev
+
+PATH: 
+  /usr/local/opt/redis@3.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/redis@3.2/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/rongfeili/Code/react-data-driver/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "react-data-driver",
+    "scripts": {
+      "start": "rollup -c rollup.config.js"
+    },
+    "devDependencies": {
+      "@types/node": "^10.12.18",
+      "@types/react": "^16.7.18",
+      "@types/react-dom": "^16.0.11",
+      "babel-cli": "^6.26.0",
+      "babel-plugin-external-helpers": "^6.22.0",
+      "babel-preset-env": "^1.7.0",
+      "rollup": "^0.68.2",
+      "rollup-plugin-commonjs": "^9.2.0",
+      "rollup-plugin-tslint": "^0.1.38",
+      "rollup-plugin-typescript": "^1.0.0",
+      "tslib": "^1.9.3"
+    },
+    "types": "./main.d.ts",
+    "main": "dist/main.js",
+    "dependencies": {
+      "@types/core-js": "^2.5.0",
+      "@types/react": "^16.7.18",
+      "co": "^4.6.0",
+      "deep-diff": "^1.0.2",
+      "prop-checks": "^1.0.5",
+      "react": "^16.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

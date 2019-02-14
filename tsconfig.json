@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitReturns": false,
+        "noImplicitThis": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "lib": ["es2015", "es2017", "dom", "scripthost"],
+        "removeComments": false,
+        "jsx": "react",
+        "allowJs": true,
+        "noLib": false, // 不包含默认的库文件.d.ts
+        "allowSyntheticDefaultImports": true, // 允许从没有默认导出的模块导出, 不影响代码生成, 只是为了类型检查
+        "emitDecoratorMetadata": true, // 给装饰器添加元数据的数据类型
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+  }
+  
